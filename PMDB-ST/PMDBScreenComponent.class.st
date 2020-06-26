@@ -16,4 +16,7 @@ PMDBScreenComponent >> initialize [
 { #category : #rendering }
 PMDBScreenComponent >> renderContentOn: html [
 	html heading level: 3; with: 'This is a heading'.
+	html paragraph: [ 
+		html text: 'The next word is '.
+		html strong: 'bold' ]
 ]
