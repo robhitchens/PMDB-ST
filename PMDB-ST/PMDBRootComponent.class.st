@@ -35,6 +35,7 @@ PMDBRootComponent >> children [
 { #category : #initialization }
 PMDBRootComponent >> initialize [ 
 	super initialize.
+	main := PMDBScreenComponent new.
 ]
 
 { #category : #accessing }
